@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C131B4A516C0FCA6005FCC46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4A416C0FCA6005FCC46 /* UIKit.framework */; };
+		C131B4A716C0FCA6005FCC46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4A616C0FCA6005FCC46 /* Foundation.framework */; };
+		C131B4A916C0FCA6005FCC46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4A816C0FCA6005FCC46 /* CoreGraphics.framework */; };
+		C131B4AF16C0FCA6005FCC46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C131B4AD16C0FCA6005FCC46 /* InfoPlist.strings */; };
+		C131B4B116C0FCA6005FCC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4B016C0FCA6005FCC46 /* main.m */; };
+		C131B4B516C0FCA6005FCC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4B416C0FCA6005FCC46 /* AppDelegate.m */; };
+		C131B4B716C0FCA6005FCC46 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B4B616C0FCA6005FCC46 /* Default.png */; };
+		C131B4B916C0FCA6005FCC46 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B4B816C0FCA6005FCC46 /* Default@2x.png */; };
+		C131B4BB16C0FCA6005FCC46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B4BA16C0FCA6005FCC46 /* Default-568h@2x.png */; };
+		C131B4BE16C0FCA6005FCC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4BD16C0FCA6005FCC46 /* ViewController.m */; };
+		C131B4C116C0FCA6005FCC46 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C131B4BF16C0FCA6005FCC46 /* ViewController.xib */; };
+		C131B4C816C0FD31005FCC46 /* mainLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B4C716C0FD31005FCC46 /* mainLogo.png */; };
+		C131B4DB16C117AB005FCC46 /* CaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4D516C117AB005FCC46 /* CaptureManager.m */; };
+		C131B4DC16C117AB005FCC46 /* UIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4D716C117AB005FCC46 /* UIImage+Utilities.m */; };
+		C131B4DD16C117AB005FCC46 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4D916C117AB005FCC46 /* CameraViewController.m */; };
+		C131B4DE16C117AB005FCC46 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C131B4DA16C117AB005FCC46 /* CameraViewController.xib */; };
+		C131B4E016C117D6005FCC46 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4DF16C117D6005FCC46 /* AVFoundation.framework */; };
+		C131B4E216C117EA005FCC46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4E116C117EA005FCC46 /* QuartzCore.framework */; };
+		C131B4E416C117FD005FCC46 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4E316C117FD005FCC46 /* AssetsLibrary.framework */; };
+		C131B4E616C11807005FCC46 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4E516C11807005FCC46 /* CoreMedia.framework */; };
+		C131B4F016C11890005FCC46 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4E816C1188F005FCC46 /* ImageViewController.m */; };
+		C131B4F116C11890005FCC46 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C131B4E916C1188F005FCC46 /* ImageViewController.xib */; };
+		C131B4F216C11890005FCC46 /* GripViewBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4EB16C11890005FCC46 /* GripViewBorderView.m */; };
+		C131B4F316C11890005FCC46 /* ResizableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4ED16C11890005FCC46 /* ResizableView.m */; };
+		C131B4F416C11890005FCC46 /* WipeAwayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B4EF16C11890005FCC46 /* WipeAwayView.m */; };
+		C131B4F616C118C2005FCC46 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4F516C118C2005FCC46 /* FacebookSDK.framework */; };
+		C131B4F816C118D4005FCC46 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4F716C118D4005FCC46 /* MessageUI.framework */; };
+		C131B4FA16C118E2005FCC46 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4F916C118E2005FCC46 /* Social.framework */; };
+		C131B4FC16C118ED005FCC46 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4FB16C118EC005FCC46 /* Accounts.framework */; };
+		C131B4FE16C118F4005FCC46 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4FD16C118F4005FCC46 /* Twitter.framework */; };
+		C131B50016C11900005FCC46 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B4FF16C11900005FCC46 /* AdSupport.framework */; };
+		C131B51A16C119B6005FCC46 /* DEComposeRuledView.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B50E16C119B6005FCC46 /* DEComposeRuledView.m */; };
+		C131B51B16C119B6005FCC46 /* DEComposeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B51016C119B6005FCC46 /* DEComposeTextView.m */; };
+		C131B51C16C119B6005FCC46 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C131B51116C119B6005FCC46 /* LICENSE */; };
+		C131B51D16C119B6005FCC46 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C131B51216C119B6005FCC46 /* README.md */; };
+		C131B51E16C119B6005FCC46 /* REComposeBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B51416C119B6005FCC46 /* REComposeBackgroundView.m */; };
+		C131B51F16C119B6005FCC46 /* REComposeSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B51616C119B6005FCC46 /* REComposeSheetView.m */; };
+		C131B52016C119B6005FCC46 /* REComposeViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C131B51716C119B6005FCC46 /* REComposeViewController.bundle */; };
+		C131B52116C119B6005FCC46 /* REComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B51916C119B6005FCC46 /* REComposeViewController.m */; };
+		C131B52816C119EE005FCC46 /* LASharekit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C131B52216C119EE005FCC46 /* LASharekit.bundle */; };
+		C131B52916C119EE005FCC46 /* LASharekit.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B52416C119EE005FCC46 /* LASharekit.m */; };
+		C131B52A16C119EE005FCC46 /* PinterestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C131B52616C119EE005FCC46 /* PinterestViewController.m */; };
+		C131B52B16C119EE005FCC46 /* PinterestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C131B52716C119EE005FCC46 /* PinterestViewController.xib */; };
+		C131B52E16C11A21005FCC46 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B52D16C11A21005FCC46 /* libsqlite3.dylib */; };
+		C131B53A16C11D8E005FCC46 /* group.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C131B52F16C11D8E005FCC46 /* group.jpg */; };
+		C131B53B16C11D8E005FCC46 /* waldoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53016C11D8E005FCC46 /* waldoIcon.png */; };
+		C131B53C16C11D8E005FCC46 /* waldoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53116C11D8E005FCC46 /* waldoIcon@2x.png */; };
+		C131B53D16C11D8E005FCC46 /* greenPath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C131B53216C11D8E005FCC46 /* greenPath.jpg */; };
+		C131B53E16C11D8E005FCC46 /* ironMan.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53316C11D8E005FCC46 /* ironMan.png */; };
+		C131B53F16C11D8E005FCC46 /* ironMan2.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53416C11D8E005FCC46 /* ironMan2.png */; };
+		C131B54016C11D8E005FCC46 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C131B53516C11D8E005FCC46 /* beach.jpg */; };
+		C131B54116C11D8E005FCC46 /* batMan2.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53616C11D8E005FCC46 /* batMan2.png */; };
+		C131B54216C11D8E005FCC46 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53716C11D8E005FCC46 /* eraser.png */; };
+		C131B54316C11D8E005FCC46 /* figure.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53816C11D8E005FCC46 /* figure.png */; };
+		C131B54416C11D8E005FCC46 /* crop_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = C131B53916C11D8E005FCC46 /* crop_frame.png */; };
+		C1360D2016CDA110000B4588 /* lawlence.png in Resources */ = {isa = PBXBuildFile; fileRef = C1360D1F16CDA110000B4588 /* lawlence.png */; };
+		C1B9277416C42F7200F52A66 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B9277316C42F7200F52A66 /* CoreImage.framework */; };
+		C1B9277716C4466B00F52A66 /* FilterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9277616C4466B00F52A66 /* FilterScrollView.m */; };
+		C1B9277B16C46D3A00F52A66 /* FilterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B9277A16C46D3A00F52A66 /* FilterImage.m */; };
+		C1C772F216C19FCE00F032A6 /* bane.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C772F116C19FCE00F032A6 /* bane.png */; };
+		C1C772F616C1BD3400F032A6 /* EditWaldoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C772F416C1BD3400F032A6 /* EditWaldoViewController.m */; };
+		C1C772F716C1BD3400F032A6 /* EditWaldoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1C772F516C1BD3400F032A6 /* EditWaldoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C131B4A116C0FCA6005FCC46 /* HeresWaldo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeresWaldo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C131B4A416C0FCA6005FCC46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C131B4A616C0FCA6005FCC46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C131B4A816C0FCA6005FCC46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C131B4AC16C0FCA6005FCC46 /* HeresWaldo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeresWaldo-Info.plist"; sourceTree = "<group>"; };
+		C131B4AE16C0FCA6005FCC46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C131B4B016C0FCA6005FCC46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C131B4B216C0FCA6005FCC46 /* HeresWaldo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeresWaldo-Prefix.pch"; sourceTree = "<group>"; };
+		C131B4B316C0FCA6005FCC46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C131B4B416C0FCA6005FCC46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C131B4B616C0FCA6005FCC46 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C131B4B816C0FCA6005FCC46 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C131B4BA16C0FCA6005FCC46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C131B4BC16C0FCA6005FCC46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C131B4BD16C0FCA6005FCC46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C131B4C016C0FCA6005FCC46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C131B4C716C0FD31005FCC46 /* mainLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainLogo.png; sourceTree = "<group>"; };
+		C131B4D416C117AB005FCC46 /* CaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureManager.h; sourceTree = "<group>"; };
+		C131B4D516C117AB005FCC46 /* CaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureManager.m; sourceTree = "<group>"; };
+		C131B4D616C117AB005FCC46 /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utilities.h"; sourceTree = "<group>"; };
+		C131B4D716C117AB005FCC46 /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utilities.m"; sourceTree = "<group>"; };
+		C131B4D816C117AB005FCC46 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		C131B4D916C117AB005FCC46 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		C131B4DA16C117AB005FCC46 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		C131B4DF16C117D6005FCC46 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C131B4E116C117EA005FCC46 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C131B4E316C117FD005FCC46 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C131B4E516C11807005FCC46 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C131B4E716C1188F005FCC46 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		C131B4E816C1188F005FCC46 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		C131B4E916C1188F005FCC46 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		C131B4EA16C1188F005FCC46 /* GripViewBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GripViewBorderView.h; sourceTree = "<group>"; };
+		C131B4EB16C11890005FCC46 /* GripViewBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GripViewBorderView.m; sourceTree = "<group>"; };
+		C131B4EC16C11890005FCC46 /* ResizableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableView.h; sourceTree = "<group>"; };
+		C131B4ED16C11890005FCC46 /* ResizableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableView.m; sourceTree = "<group>"; };
+		C131B4EE16C11890005FCC46 /* WipeAwayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WipeAwayView.h; sourceTree = "<group>"; };
+		C131B4EF16C11890005FCC46 /* WipeAwayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WipeAwayView.m; sourceTree = "<group>"; };
+		C131B4F516C118C2005FCC46 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		C131B4F716C118D4005FCC46 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C131B4F916C118E2005FCC46 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C131B4FB16C118EC005FCC46 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C131B4FD16C118F4005FCC46 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C131B4FF16C11900005FCC46 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C131B50D16C119B6005FCC46 /* DEComposeRuledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEComposeRuledView.h; sourceTree = "<group>"; };
+		C131B50E16C119B6005FCC46 /* DEComposeRuledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEComposeRuledView.m; sourceTree = "<group>"; };
+		C131B50F16C119B6005FCC46 /* DEComposeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEComposeTextView.h; sourceTree = "<group>"; };
+		C131B51016C119B6005FCC46 /* DEComposeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEComposeTextView.m; sourceTree = "<group>"; };
+		C131B51116C119B6005FCC46 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C131B51216C119B6005FCC46 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C131B51316C119B6005FCC46 /* REComposeBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REComposeBackgroundView.h; sourceTree = "<group>"; };
+		C131B51416C119B6005FCC46 /* REComposeBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REComposeBackgroundView.m; sourceTree = "<group>"; };
+		C131B51516C119B6005FCC46 /* REComposeSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REComposeSheetView.h; sourceTree = "<group>"; };
+		C131B51616C119B6005FCC46 /* REComposeSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REComposeSheetView.m; sourceTree = "<group>"; };
+		C131B51716C119B6005FCC46 /* REComposeViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = REComposeViewController.bundle; sourceTree = "<group>"; };
+		C131B51816C119B6005FCC46 /* REComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REComposeViewController.h; sourceTree = "<group>"; };
+		C131B51916C119B6005FCC46 /* REComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REComposeViewController.m; sourceTree = "<group>"; };
+		C131B52216C119EE005FCC46 /* LASharekit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LASharekit.bundle; sourceTree = "<group>"; };
+		C131B52316C119EE005FCC46 /* LASharekit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LASharekit.h; sourceTree = "<group>"; };
+		C131B52416C119EE005FCC46 /* LASharekit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LASharekit.m; sourceTree = "<group>"; };
+		C131B52516C119EE005FCC46 /* PinterestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestViewController.h; sourceTree = "<group>"; };
+		C131B52616C119EE005FCC46 /* PinterestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestViewController.m; sourceTree = "<group>"; };
+		C131B52716C119EE005FCC46 /* PinterestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinterestViewController.xib; sourceTree = "<group>"; };
+		C131B52D16C11A21005FCC46 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C131B52F16C11D8E005FCC46 /* group.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = group.jpg; sourceTree = "<group>"; };
+		C131B53016C11D8E005FCC46 /* waldoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waldoIcon.png; sourceTree = "<group>"; };
+		C131B53116C11D8E005FCC46 /* waldoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "waldoIcon@2x.png"; sourceTree = "<group>"; };
+		C131B53216C11D8E005FCC46 /* greenPath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenPath.jpg; sourceTree = "<group>"; };
+		C131B53316C11D8E005FCC46 /* ironMan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironMan.png; sourceTree = "<group>"; };
+		C131B53416C11D8E005FCC46 /* ironMan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironMan2.png; sourceTree = "<group>"; };
+		C131B53516C11D8E005FCC46 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		C131B53616C11D8E005FCC46 /* batMan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batMan2.png; sourceTree = "<group>"; };
+		C131B53716C11D8E005FCC46 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		C131B53816C11D8E005FCC46 /* figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = figure.png; sourceTree = "<group>"; };
+		C131B53916C11D8E005FCC46 /* crop_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crop_frame.png; sourceTree = "<group>"; };
+		C1360D1F16CDA110000B4588 /* lawlence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawlence.png; sourceTree = "<group>"; };
+		C1B9277316C42F7200F52A66 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C1B9277516C4466B00F52A66 /* FilterScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterScrollView.h; sourceTree = "<group>"; };
+		C1B9277616C4466B00F52A66 /* FilterScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterScrollView.m; sourceTree = "<group>"; };
+		C1B9277916C46D3A00F52A66 /* FilterImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterImage.h; sourceTree = "<group>"; };
+		C1B9277A16C46D3A00F52A66 /* FilterImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterImage.m; sourceTree = "<group>"; };
+		C1C772F116C19FCE00F032A6 /* bane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bane.png; sourceTree = "<group>"; };
+		C1C772F316C1BD3400F032A6 /* EditWaldoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditWaldoViewController.h; sourceTree = "<group>"; };
+		C1C772F416C1BD3400F032A6 /* EditWaldoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditWaldoViewController.m; sourceTree = "<group>"; };
+		C1C772F516C1BD3400F032A6 /* EditWaldoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditWaldoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C131B49E16C0FCA6005FCC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B9277416C42F7200F52A66 /* CoreImage.framework in Frameworks */,
+				C131B52E16C11A21005FCC46 /* libsqlite3.dylib in Frameworks */,
+				C131B50016C11900005FCC46 /* AdSupport.framework in Frameworks */,
+				C131B4FE16C118F4005FCC46 /* Twitter.framework in Frameworks */,
+				C131B4FC16C118ED005FCC46 /* Accounts.framework in Frameworks */,
+				C131B4FA16C118E2005FCC46 /* Social.framework in Frameworks */,
+				C131B4F816C118D4005FCC46 /* MessageUI.framework in Frameworks */,
+				C131B4F616C118C2005FCC46 /* FacebookSDK.framework in Frameworks */,
+				C131B4E616C11807005FCC46 /* CoreMedia.framework in Frameworks */,
+				C131B4E416C117FD005FCC46 /* AssetsLibrary.framework in Frameworks */,
+				C131B4E216C117EA005FCC46 /* QuartzCore.framework in Frameworks */,
+				C131B4E016C117D6005FCC46 /* AVFoundation.framework in Frameworks */,
+				C131B4A516C0FCA6005FCC46 /* UIKit.framework in Frameworks */,
+				C131B4A716C0FCA6005FCC46 /* Foundation.framework in Frameworks */,
+				C131B4A916C0FCA6005FCC46 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C131B49816C0FCA6005FCC46 = {
+			isa = PBXGroup;
+			children = (
+				C1B9277316C42F7200F52A66 /* CoreImage.framework */,
+				C131B52D16C11A21005FCC46 /* libsqlite3.dylib */,
+				C131B4AA16C0FCA6005FCC46 /* HeresWaldo */,
+				C131B4A316C0FCA6005FCC46 /* Frameworks */,
+				C131B4A216C0FCA6005FCC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C131B4A216C0FCA6005FCC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C131B4A116C0FCA6005FCC46 /* HeresWaldo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C131B4A316C0FCA6005FCC46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C131B4FB16C118EC005FCC46 /* Accounts.framework */,
+				C131B4FF16C11900005FCC46 /* AdSupport.framework */,
+				C131B4FD16C118F4005FCC46 /* Twitter.framework */,
+				C131B4F916C118E2005FCC46 /* Social.framework */,
+				C131B4F716C118D4005FCC46 /* MessageUI.framework */,
+				C131B4F516C118C2005FCC46 /* FacebookSDK.framework */,
+				C131B4E516C11807005FCC46 /* CoreMedia.framework */,
+				C131B4E316C117FD005FCC46 /* AssetsLibrary.framework */,
+				C131B4E116C117EA005FCC46 /* QuartzCore.framework */,
+				C131B4DF16C117D6005FCC46 /* AVFoundation.framework */,
+				C131B4A416C0FCA6005FCC46 /* UIKit.framework */,
+				C131B4A616C0FCA6005FCC46 /* Foundation.framework */,
+				C131B4A816C0FCA6005FCC46 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C131B4AA16C0FCA6005FCC46 /* HeresWaldo */ = {
+			isa = PBXGroup;
+			children = (
+				C131B4C916C0FD56005FCC46 /* picts */,
+				C131B4B316C0FCA6005FCC46 /* AppDelegate.h */,
+				C131B4B416C0FCA6005FCC46 /* AppDelegate.m */,
+				C131B4BC16C0FCA6005FCC46 /* ViewController.h */,
+				C131B4BD16C0FCA6005FCC46 /* ViewController.m */,
+				C131B4BF16C0FCA6005FCC46 /* ViewController.xib */,
+				C131B4D416C117AB005FCC46 /* CaptureManager.h */,
+				C131B4D516C117AB005FCC46 /* CaptureManager.m */,
+				C131B4D616C117AB005FCC46 /* UIImage+Utilities.h */,
+				C131B4D716C117AB005FCC46 /* UIImage+Utilities.m */,
+				C131B4D816C117AB005FCC46 /* CameraViewController.h */,
+				C131B4D916C117AB005FCC46 /* CameraViewController.m */,
+				C131B4DA16C117AB005FCC46 /* CameraViewController.xib */,
+				C131B4E716C1188F005FCC46 /* ImageViewController.h */,
+				C131B4E816C1188F005FCC46 /* ImageViewController.m */,
+				C131B4E916C1188F005FCC46 /* ImageViewController.xib */,
+				C1B9277916C46D3A00F52A66 /* FilterImage.h */,
+				C1B9277A16C46D3A00F52A66 /* FilterImage.m */,
+				C1B9277516C4466B00F52A66 /* FilterScrollView.h */,
+				C1B9277616C4466B00F52A66 /* FilterScrollView.m */,
+				C1B9277816C4467E00F52A66 /* ResizeView */,
+				C131B4EE16C11890005FCC46 /* WipeAwayView.h */,
+				C131B4EF16C11890005FCC46 /* WipeAwayView.m */,
+				C1C772F316C1BD3400F032A6 /* EditWaldoViewController.h */,
+				C1C772F416C1BD3400F032A6 /* EditWaldoViewController.m */,
+				C1C772F516C1BD3400F032A6 /* EditWaldoViewController.xib */,
+				C131B52C16C119F4005FCC46 /* LAShareKit */,
+				C131B50C16C119B6005FCC46 /* REComposeViewController */,
+				C131B4AB16C0FCA6005FCC46 /* Supporting Files */,
+			);
+			path = HeresWaldo;
+			sourceTree = "<group>";
+		};
+		C131B4AB16C0FCA6005FCC46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C131B4AC16C0FCA6005FCC46 /* HeresWaldo-Info.plist */,
+				C131B4AD16C0FCA6005FCC46 /* InfoPlist.strings */,
+				C131B4B016C0FCA6005FCC46 /* main.m */,
+				C131B4B216C0FCA6005FCC46 /* HeresWaldo-Prefix.pch */,
+				C131B4B616C0FCA6005FCC46 /* Default.png */,
+				C131B4B816C0FCA6005FCC46 /* Default@2x.png */,
+				C131B4BA16C0FCA6005FCC46 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C131B4C916C0FD56005FCC46 /* picts */ = {
+			isa = PBXGroup;
+			children = (
+				C1C772F116C19FCE00F032A6 /* bane.png */,
+				C131B52F16C11D8E005FCC46 /* group.jpg */,
+				C131B53016C11D8E005FCC46 /* waldoIcon.png */,
+				C131B53116C11D8E005FCC46 /* waldoIcon@2x.png */,
+				C131B53216C11D8E005FCC46 /* greenPath.jpg */,
+				C1360D1F16CDA110000B4588 /* lawlence.png */,
+				C131B53316C11D8E005FCC46 /* ironMan.png */,
+				C131B53416C11D8E005FCC46 /* ironMan2.png */,
+				C131B53516C11D8E005FCC46 /* beach.jpg */,
+				C131B53616C11D8E005FCC46 /* batMan2.png */,
+				C131B53716C11D8E005FCC46 /* eraser.png */,
+				C131B53816C11D8E005FCC46 /* figure.png */,
+				C131B53916C11D8E005FCC46 /* crop_frame.png */,
+				C131B4C716C0FD31005FCC46 /* mainLogo.png */,
+			);
+			name = picts;
+			sourceTree = "<group>";
+		};
+		C131B50C16C119B6005FCC46 /* REComposeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C131B50D16C119B6005FCC46 /* DEComposeRuledView.h */,
+				C131B50E16C119B6005FCC46 /* DEComposeRuledView.m */,
+				C131B50F16C119B6005FCC46 /* DEComposeTextView.h */,
+				C131B51016C119B6005FCC46 /* DEComposeTextView.m */,
+				C131B51116C119B6005FCC46 /* LICENSE */,
+				C131B51216C119B6005FCC46 /* README.md */,
+				C131B51316C119B6005FCC46 /* REComposeBackgroundView.h */,
+				C131B51416C119B6005FCC46 /* REComposeBackgroundView.m */,
+				C131B51516C119B6005FCC46 /* REComposeSheetView.h */,
+				C131B51616C119B6005FCC46 /* REComposeSheetView.m */,
+				C131B51716C119B6005FCC46 /* REComposeViewController.bundle */,
+				C131B51816C119B6005FCC46 /* REComposeViewController.h */,
+				C131B51916C119B6005FCC46 /* REComposeViewController.m */,
+			);
+			name = REComposeViewController;
+			path = ../LASharekit/REComposeViewController;
+			sourceTree = "<group>";
+		};
+		C131B52C16C119F4005FCC46 /* LAShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				C131B52216C119EE005FCC46 /* LASharekit.bundle */,
+				C131B52316C119EE005FCC46 /* LASharekit.h */,
+				C131B52416C119EE005FCC46 /* LASharekit.m */,
+				C131B52516C119EE005FCC46 /* PinterestViewController.h */,
+				C131B52616C119EE005FCC46 /* PinterestViewController.m */,
+				C131B52716C119EE005FCC46 /* PinterestViewController.xib */,
+			);
+			name = LAShareKit;
+			sourceTree = "<group>";
+		};
+		C1B9277816C4467E00F52A66 /* ResizeView */ = {
+			isa = PBXGroup;
+			children = (
+				C131B4EA16C1188F005FCC46 /* GripViewBorderView.h */,
+				C131B4EB16C11890005FCC46 /* GripViewBorderView.m */,
+				C131B4EC16C11890005FCC46 /* ResizableView.h */,
+				C131B4ED16C11890005FCC46 /* ResizableView.m */,
+			);
+			name = ResizeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C131B4A016C0FCA6005FCC46 /* HeresWaldo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C131B4C416C0FCA6005FCC46 /* Build configuration list for PBXNativeTarget "HeresWaldo" */;
+			buildPhases = (
+				C131B49D16C0FCA6005FCC46 /* Sources */,
+				C131B49E16C0FCA6005FCC46 /* Frameworks */,
+				C131B49F16C0FCA6005FCC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeresWaldo;
+			productName = HeresWaldo;
+			productReference = C131B4A116C0FCA6005FCC46 /* HeresWaldo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C131B49916C0FCA6005FCC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Gregory Lee";
+			};
+			buildConfigurationList = C131B49C16C0FCA6005FCC46 /* Build configuration list for PBXProject "HeresWaldo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C131B49816C0FCA6005FCC46;
+			productRefGroup = C131B4A216C0FCA6005FCC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C131B4A016C0FCA6005FCC46 /* HeresWaldo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C131B49F16C0FCA6005FCC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131B4AF16C0FCA6005FCC46 /* InfoPlist.strings in Resources */,
+				C131B4B716C0FCA6005FCC46 /* Default.png in Resources */,
+				C131B4B916C0FCA6005FCC46 /* Default@2x.png in Resources */,
+				C131B4BB16C0FCA6005FCC46 /* Default-568h@2x.png in Resources */,
+				C131B4C116C0FCA6005FCC46 /* ViewController.xib in Resources */,
+				C131B4C816C0FD31005FCC46 /* mainLogo.png in Resources */,
+				C131B4DE16C117AB005FCC46 /* CameraViewController.xib in Resources */,
+				C131B4F116C11890005FCC46 /* ImageViewController.xib in Resources */,
+				C131B51C16C119B6005FCC46 /* LICENSE in Resources */,
+				C131B51D16C119B6005FCC46 /* README.md in Resources */,
+				C131B52016C119B6005FCC46 /* REComposeViewController.bundle in Resources */,
+				C131B52816C119EE005FCC46 /* LASharekit.bundle in Resources */,
+				C131B52B16C119EE005FCC46 /* PinterestViewController.xib in Resources */,
+				C131B53A16C11D8E005FCC46 /* group.jpg in Resources */,
+				C131B53B16C11D8E005FCC46 /* waldoIcon.png in Resources */,
+				C131B53C16C11D8E005FCC46 /* waldoIcon@2x.png in Resources */,
+				C131B53D16C11D8E005FCC46 /* greenPath.jpg in Resources */,
+				C131B53E16C11D8E005FCC46 /* ironMan.png in Resources */,
+				C131B53F16C11D8E005FCC46 /* ironMan2.png in Resources */,
+				C131B54016C11D8E005FCC46 /* beach.jpg in Resources */,
+				C131B54116C11D8E005FCC46 /* batMan2.png in Resources */,
+				C131B54216C11D8E005FCC46 /* eraser.png in Resources */,
+				C131B54316C11D8E005FCC46 /* figure.png in Resources */,
+				C131B54416C11D8E005FCC46 /* crop_frame.png in Resources */,
+				C1C772F216C19FCE00F032A6 /* bane.png in Resources */,
+				C1C772F716C1BD3400F032A6 /* EditWaldoViewController.xib in Resources */,
+				C1360D2016CDA110000B4588 /* lawlence.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C131B49D16C0FCA6005FCC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131B4B116C0FCA6005FCC46 /* main.m in Sources */,
+				C131B4B516C0FCA6005FCC46 /* AppDelegate.m in Sources */,
+				C131B4BE16C0FCA6005FCC46 /* ViewController.m in Sources */,
+				C131B4DB16C117AB005FCC46 /* CaptureManager.m in Sources */,
+				C131B4DC16C117AB005FCC46 /* UIImage+Utilities.m in Sources */,
+				C131B4DD16C117AB005FCC46 /* CameraViewController.m in Sources */,
+				C131B4F016C11890005FCC46 /* ImageViewController.m in Sources */,
+				C131B4F216C11890005FCC46 /* GripViewBorderView.m in Sources */,
+				C131B4F316C11890005FCC46 /* ResizableView.m in Sources */,
+				C131B4F416C11890005FCC46 /* WipeAwayView.m in Sources */,
+				C131B51A16C119B6005FCC46 /* DEComposeRuledView.m in Sources */,
+				C131B51B16C119B6005FCC46 /* DEComposeTextView.m in Sources */,
+				C131B51E16C119B6005FCC46 /* REComposeBackgroundView.m in Sources */,
+				C131B51F16C119B6005FCC46 /* REComposeSheetView.m in Sources */,
+				C131B52116C119B6005FCC46 /* REComposeViewController.m in Sources */,
+				C131B52916C119EE005FCC46 /* LASharekit.m in Sources */,
+				C131B52A16C119EE005FCC46 /* PinterestViewController.m in Sources */,
+				C1C772F616C1BD3400F032A6 /* EditWaldoViewController.m in Sources */,
+				C1B9277716C4466B00F52A66 /* FilterScrollView.m in Sources */,
+				C1B9277B16C46D3A00F52A66 /* FilterImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C131B4AD16C0FCA6005FCC46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C131B4AE16C0FCA6005FCC46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C131B4BF16C0FCA6005FCC46 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C131B4C016C0FCA6005FCC46 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C131B4C216C0FCA6005FCC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C131B4C316C0FCA6005FCC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C131B4C516C0FCA6005FCC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeresWaldo/HeresWaldo-Prefix.pch";
+				INFOPLIST_FILE = "HeresWaldo/HeresWaldo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C131B4C616C0FCA6005FCC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeresWaldo/HeresWaldo-Prefix.pch";
+				INFOPLIST_FILE = "HeresWaldo/HeresWaldo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C131B49C16C0FCA6005FCC46 /* Build configuration list for PBXProject "HeresWaldo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131B4C216C0FCA6005FCC46 /* Debug */,
+				C131B4C316C0FCA6005FCC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131B4C416C0FCA6005FCC46 /* Build configuration list for PBXNativeTarget "HeresWaldo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131B4C516C0FCA6005FCC46 /* Debug */,
+				C131B4C616C0FCA6005FCC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C131B49916C0FCA6005FCC46 /* Project object */;
+}
